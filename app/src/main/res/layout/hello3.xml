@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pryam">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/bg_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/btn" />
+
+        <TextView
+            android:id="@+id/text_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="#2E70BE"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bg_next"
+            app:layout_constraintEnd_toEndOf="@+id/bg_next"
+            app:layout_constraintStart_toStartOf="@+id/bg_next"
+            app:layout_constraintTop_toTopOf="@+id/bg_next" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:text="Step 4/5"
+            android:textColor="@android:color/white"
+            android:textSize="46sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="How often do you exercise?"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/advanced"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:drawableLeft="@drawable/icon3"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Build muscle"
+                android:textColor="#2E70BE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/keepon"
+                app:srcCompat="@drawable/btn" />
+
+            <ImageView
+                android:id="@+id/newbie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:drawableLeft="@drawable/icon2"
+                android:onClick="onClickhello"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Weight loss"
+                android:textColor="#2E70BE"
+                app:layout_constraintBottom_toTopOf="@+id/keepon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/btn" />
+
+            <ImageView
+                android:id="@+id/keepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:drawableLeft="@drawable/icon1"
+                android:paddingLeft="30dp"
+                android:paddingRight="40dp"
+                android:text="Keeping fit"
+                android:textColor="#2E70BE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newbie"
+                app:srcCompat="@drawable/btn" />
+
+            <TextView
+                android:id="@+id/text_next2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Newbie"
+                android:textColor="#2E70BE"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/newbie"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/newbie"
+                app:layout_constraintVertical_bias="0.155" />
+
+            <TextView
+                android:id="@+id/text_next5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just getting started"
+                android:textColor="#2E70BE"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_next2" />
+
+            <TextView
+                android:id="@+id/text_next8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-2 times a week"
+                android:textColor="#2E70BE"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_next3" />
+
+            <TextView
+                android:id="@+id/text_next9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More than 3 times a week"
+                android:textColor="#2E70BE"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_next4" />
+
+            <TextView
+                android:id="@+id/text_next3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keep on"
+                android:textColor="#2E70BE"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/keepon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/keepon"
+                app:layout_constraintVertical_bias="0.244" />
+
+            <TextView
+                android:id="@+id/text_next4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advanced"
+                android:textColor="#2E70BE"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/advanced"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/advanced"
+                app:layout_constraintVertical_bias="0.177" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,12 @@
         <activity android:name=".Hello1"></activity>
         <activity android:name=".Hello2male"></activity>
         <activity android:name=".Hello2fem"></activity>
+        <activity android:name=".Hello3"></activity>
+        <activity android:name=".Hello4"></activity>
+        <activity android:name=".SignUp"></activity>
+        <activity android:name=".SignIn"></activity>
+        <activity android:name=".Main"></activity>
+
     </application>
 
 </manifest>

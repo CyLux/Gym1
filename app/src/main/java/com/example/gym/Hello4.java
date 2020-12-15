@@ -7,16 +7,14 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Hello2fem extends AppCompatActivity
-{
-    @Override
+public class Hello4 extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.hello2female);
+        setContentView(R.layout.hello4);
     }
-    public void onClickfem(View v){
-        Intent b = new Intent(Hello2fem.this, Hello3.class);
-        startActivity(b);
-        finish();
+    public void onClick(View v){
+        Intent a = new Intent(Hello4.this,SignIn.class);
+        startActivity(a);
+
     }
 }

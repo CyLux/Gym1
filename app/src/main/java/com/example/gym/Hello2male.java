@@ -12,10 +12,10 @@ public class Hello2male extends AppCompatActivity
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.hello);
+        setContentView(R.layout.hello2male);
     }
     public void onClick(View v){
-        Intent a = new Intent(Hello2male.this, Hello1.class);
+        Intent a = new Intent(Hello2male.this, Hello3.class);
         startActivity(a);
         finish();
     }
