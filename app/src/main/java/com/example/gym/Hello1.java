@@ -11,12 +11,13 @@ import android.widget.TextView;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+//класс отвечающий за за переход к шагу 2/5
 
 public class Hello1 extends AppCompatActivity {
     TextView text_next;
     ImageView bg_male, bg_female, bg_next;
     Integer score = 0;
-
+//команды отвечающие за переход на экран соответсвующий выбранному полу, изменяет цвет после выбора пола
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

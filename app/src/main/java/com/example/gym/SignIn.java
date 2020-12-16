@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+//класс появляющийся после выполнения всех шагов, позволяет пройти авторизацию
 public class SignIn extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

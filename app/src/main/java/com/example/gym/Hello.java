@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+//класс отвечающий за за переход к шагу 1/5
 public class Hello extends AppCompatActivity
 {
     @Override

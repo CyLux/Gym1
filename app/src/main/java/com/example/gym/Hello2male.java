@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+//класс отвечающий за переход к шагу 3/5 если выбран мужской пол
 public class Hello2male extends AppCompatActivity
 {
     @Override

@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+//класс отвечающий за переход к шагу 4/5 , позволяет выбрать уровень сложности тренировки
 public class Hello3 extends AppCompatActivity {
     TextView text_next;
     ImageView newbie, keepon, advanced, bg_next;

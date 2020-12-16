@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+//класс отвечающий за переход к шагу 5/5 в данном классе заполняется рост и вес человека
 public class Hello4 extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
